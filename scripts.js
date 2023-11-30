@@ -94,6 +94,7 @@ function updateHeaderElements() {
 
 // Call the function to generate navigation links when the page loads
 document.addEventListener('DOMContentLoaded', function () {
+    console.log('v1');
     const detectedLanguage = getCurrentLanguage();
     currentLanguage = detectedLanguage;
     const navDataFile = detectedLanguage === 'en' ? 'navData_en.json' : 'navData.json';
