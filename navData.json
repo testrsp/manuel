@@ -1,0 +1,13 @@
+[
+   { "name": "使用者介面", "file": "userManagement" },
+   { "name": "創建推廣活動", "file": "createCampaign" },
+   { "name": "1. 編輯器和組件", "file": "editor" },
+   { "name": "2. 內容創建和自定義", "file": "customization" },
+   { "name": "3. 連結和附件", "file": "attachment" },
+   { "name": "4. 預覽和測試", "file": "preview" },
+   { "name": "5. 範本使用", "file": "template" },
+   { "name": "6. WhatsApp推廣活動", "file": "whatsapp" },
+   { "name": "管理聯絡人名單", "file": "manageContacts" },
+   { "name": "報告", "file": "report" },
+   { "name": "建立登記表格 ", "file": "createSignupform" }
+]

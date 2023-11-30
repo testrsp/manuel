@@ -1,0 +1,13 @@
+[
+   { "name": "User Management", "file": "userManagement_en" },
+   { "name": "Create Campaign", "file": "createCampaign_en" },
+   { "name": "1. Editor and Components", "file": "editor_en" },
+   { "name": "2. Content Creation and Customization", "file": "customization_en" },
+   { "name": "3. Links and Attachments", "file": "attachment_en" },
+   { "name": "4. Preview and Testing", "file": "preview_en" },
+   { "name": "5. Template Usage", "file": "template_en" },
+   { "name": "6. WhatsApp Campaign", "file": "whatsapp_en" },
+   { "name": "Manage Contact List", "file": "manageContacts_en" },
+   { "name": "Report", "file": "report_en" },
+   { "name": "Create Signup form ", "file": "createSignupform_en" }
+]
