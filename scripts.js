@@ -104,26 +104,6 @@ function updateHeaderElements() {
     languageSwitchButtonNav.textContent = buttonText; // Update the text for languageSwitchButtonNav
 }
 
-window.addEventListener('scroll', function() {
-    const toggleButton = document.getElementById('toggleButton');
-    const header = document.querySelector('header');
-    const headerHeight = header.offsetHeight;
-
-    // Calculate the position to stick the button
-    const stickPosition = 20;
-
-    // Get the current scroll position
-    const scrollPosition = window.scrollY;
-
-    // Check if the scroll position is below the header
-    if (scrollPosition > headerHeight) {
-        // Stick the button to the top
-        toggleButton.style.top = stickPosition + 'px';
-    } else {
-        // Move the button below the header
-        toggleButton.style.top = (headerHeight + stickPosition) + 'px';
-    }
-});
 // Call the function to generate navigation links when the page loads
 document.addEventListener('DOMContentLoaded', function () {
     const detectedLanguage = getCurrentLanguage();
