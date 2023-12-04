@@ -71,3 +71,24 @@
     width: 80%;
     padding: 20px;
     }
+#toggleButton {
+   display: none;
+   background-color: #02336e;
+   color: #fff;
+   padding: 10px;
+   text-align: center;
+   cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+   #navigation {
+      display: none;
+   }
+
+   #toggleButton {
+      display: block;
+   }
+
+   #content {
+      width: 100%;
+   }
+}
