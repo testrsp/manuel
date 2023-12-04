@@ -81,7 +81,11 @@
    cursor: pointer;
 }
 #languageSwitchHeader {
-   display: block;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 200%;
+    margin-left: 20px;
+    height: 100%;
 }
 #languageSwitchNav {
    display: none;
@@ -93,7 +97,7 @@
    }
 
    #languageSwitchNav {
-      display: inline-block;
+      display: block;
       margin-bottom: 10px;
    }
     
