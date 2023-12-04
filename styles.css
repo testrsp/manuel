@@ -78,7 +78,8 @@
     position: fixed;
     top: 20px;
     right: 20px;
-    background-color: #02336e;
+    border: 1px solid #02336e;
+    background-color: #25a8e0;
     color: #fff;
     padding: 10px;
     text-align: center;
