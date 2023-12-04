@@ -35,6 +35,8 @@ function loadFunction(functionName, anchor) {
                     targetAnchor.scrollIntoView({ behavior: 'smooth' });
                 }
             }
+
+            toggleNavigationBar();
         })
         .catch(error => {
             console.error(error.message);
