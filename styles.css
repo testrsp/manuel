@@ -61,6 +61,7 @@
     width: 300px;
     border-right: 1px solid #d3d3d3;
     display: block;
+        transition: visibility 0.3s ease;
     }
     #navigation ul {
     list-style-type: none;
@@ -86,7 +87,6 @@
     
    #navigation {
     display: none;
-    transition: visibility 0.3s ease;
    }
 
    #toggleButton {
