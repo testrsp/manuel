@@ -88,17 +88,17 @@
    text-align: center;
 }
     .mobile_hidden{
-      display: none;
+      display: block;
     }
     .mobile_show{
-      display: block;
+      display: none;
     }
 @media screen and (max-width: 600px) {
     .mobile_hidden{
-      display: block;
+      display: none;
     }
     .mobile_show{
-      display: none;
+      display: block;
     }
    #navigation {
       display: none;
