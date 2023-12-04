@@ -76,21 +76,18 @@ function toggleNavigationBar() {
         navigation.style.display = 'block';
     }
 }
-// Update header elements based on the current language
+// Update the updateHeaderElements function
 function updateHeaderElements() {
     const logoElement = document.getElementById('logo');
     const headerTextElement = document.getElementById('header-text');
     const languageSwitchButton = document.getElementById('languageSwitchButton');
-    
     const languageSwitchButtonNav = document.getElementById('languageSwitchButtonNav');
 
     // Clear previous content
     logoElement.innerHTML = '';
     headerTextElement.innerHTML = '';
-    
-    languageSwitchButtonNav = '';
 
-    // Set new content based on the current language: 電郵推廣及管理工具: Email marketing and newsletter management tool
+    // Set new content based on the current language
     const logoText = currentLanguage === 'en' ? 'Reasonable Spread' : 'Spread推廣';
     const headerText = currentLanguage === 'en' ? 'User Manual' : '使用手冊';
     const buttonText = currentLanguage === 'en' ? '中文' : 'English';
@@ -100,13 +97,13 @@ function updateHeaderElements() {
 
     const headerTextElementContent = document.createElement('h2');
     headerTextElementContent.textContent = headerText;
-    
+
     logoElement.appendChild(logoTextElement);
     headerTextElement.appendChild(headerTextElementContent);
     languageSwitchButton.querySelector('h2').textContent = buttonText;
-    
-    languageSwitchButtonNav.textContent = buttonText;
+    languageSwitchButtonNav.textContent = buttonText; // Update the text for languageSwitchButtonNav
 }
+
 
 // Call the function to generate navigation links when the page loads
 document.addEventListener('DOMContentLoaded', function () {
