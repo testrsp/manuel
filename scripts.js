@@ -115,13 +115,16 @@ document.addEventListener('DOMContentLoaded', function () {
     updateHeaderElements(); // Update header elements when the page loads
 });
 function toggleFunctionButton() {
-    // Add your logic here for toggling the function button
     console.log('Toggle Function Button Clicked');
+}
+
+function switchFunction() {
+    console.log('Switch Function Clicked');
 }
 
 // Call this function when switching language
 function switchLanguage() {
-    console.log('Switch Function Clicked');
+    console.log('Switch Language Clicked');
     // Set the default language to English if needed
     const defaultLanguage = 'zh';
 
