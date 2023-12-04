@@ -79,7 +79,19 @@
    text-align: center;
    cursor: pointer;
 }
+    .mobile_hidden{
+      display: none;
+    }
+    .mobile_show{
+      display: block;
+    }
 @media screen and (max-width: 600px) {
+    .mobile_hidden{
+      display: block;
+    }
+    .mobile_show{
+      display: none;
+    }
    #navigation {
       display: none;
    }
