@@ -104,7 +104,6 @@ function updateHeaderElements() {
 
 // Call the function to generate navigation links when the page loads
 document.addEventListener('DOMContentLoaded', function () {
-    console.log('v1');
     const detectedLanguage = getCurrentLanguage();
     currentLanguage = detectedLanguage;
     const navDataFile = detectedLanguage === 'en' ? 'navData_en.json' : 'navData.json';
@@ -115,9 +114,14 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     updateHeaderElements(); // Update header elements when the page loads
 });
+function toggleFunctionButton() {
+    // Add your logic here for toggling the function button
+    console.log('Toggle Function Button Clicked');
+}
 
 // Call this function when switching language
 function switchLanguage() {
+    console.log('Switch Function Clicked');
     // Set the default language to English if needed
     const defaultLanguage = 'zh';
 
