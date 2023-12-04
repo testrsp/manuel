@@ -67,7 +67,7 @@ function generateNavigationLinks(navDataFile) {
 }
 
 function toggleNavigationBar() {
-   const navigation = document.getElementById('navigation');
+    const navigation = document.getElementById('navigation');
     const screenWidth = window.innerWidth;
 
     if (screenWidth <= 600) {
