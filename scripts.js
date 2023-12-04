@@ -69,9 +69,11 @@ function generateNavigationLinks(navDataFile) {
 
 function toggleNavigationBar() {
    const navigation = document.getElementById('navigation');
-    navigation.style.display = window.getComputedStyle(navigation).display === 'none' ? 'block' : 'none';
+    const toggleButton = document.getElementById('toggleButton');
 
-   }
+    navigation.style.display = window.getComputedStyle(navigation).display === 'none' ? 'block' : 'none';
+    toggleButton.style.marginLeft = window.getComputedStyle(navigation).display === 'none' ? '0' : '300px';
+ }
 // Update header elements based on the current language
 function updateHeaderElements() {
     const logoElement = document.getElementById('logo');
