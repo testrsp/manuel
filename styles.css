@@ -88,19 +88,7 @@
    padding: 10px;
    text-align: center;
 }
-    .mobile_hidden{
-      display: inline-block;
-    }
-    .mobile_show{
-      display: none;
-    }
 @media screen and (max-width: 600px) {
-    .mobile_hidden{
-      display: none;
-    }
-    .mobile_show{
-      display: inline-block;
-    }
    #navigation {
       display: none;
         position: fixed;
