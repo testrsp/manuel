@@ -69,6 +69,8 @@ function generateNavigationLinks(navDataFile) {
 function toggleNavigationBar() {
    const navigation = document.getElementById('navigation');
     navigation.style.display = (window.getComputedStyle(navigation).display === 'none') ? 'block' : 'none';
+    navigation.style.display = (screenWidth <= 600) ? 'none' : 'block';
+
     //navigation.style.visibility = (window.getComputedStyle(navigation).visibility === 'hidden') ? 'visible' : 'hidden';
 }
 // Update header elements based on the current language
