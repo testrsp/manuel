@@ -60,6 +60,7 @@
     #navigation {
     width: 300px;
     border-right: 1px solid #d3d3d3;
+    display: block;
     }
     #navigation ul {
     list-style-type: none;
@@ -84,6 +85,7 @@
 @media screen and (max-width: 600px) {
     
    #navigation {
+    display: none;
     visibility: hidden;
     transition: visibility 0.3s ease;
    }
@@ -99,6 +101,7 @@
 @media screen and (min-width: 600px) {
     
    #navigation {
+    display: block;
       visibility: visible;
    }
 }
