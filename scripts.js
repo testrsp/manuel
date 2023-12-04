@@ -115,18 +115,24 @@ document.addEventListener('DOMContentLoaded', function () {
         loadFunction('userManagement'); // Preload userManagement.html
     }
     updateHeaderElements(); // Update header elements when the page loads
+    window.addEventListener('scroll', handleScroll);
 });
-function toggleFunctionButton() {
-    console.log('Toggle Function Button Clicked');
-}
 
-function switchFunction() {
-    console.log('Switch Function Clicked');
+function handleScroll() {
+    const toggleButton = document.getElementById('toggleButton');
+    const header = document.querySelector('header');
+    const headerHeight = header.offsetHeight;
+    const scrollY = window.scrollY;
+
+    // Calculate the new top position based on scroll position
+    const newTopPosition = Math.max(20, 100 - scrollY);
+
+    // Update the top property of toggleButton
+    toggleButton.style.top = newTopPosition + 'px';
 }
 
 // Call this function when switching language
 function switchLanguage() {
-    console.log('Switch Language Clicked');
     // Set the default language to English if needed
     const defaultLanguage = 'zh';
 
