@@ -92,6 +92,9 @@
         display: block;
     }
     
+    #languageSwitchButton {
+        display: none;
+    }
    #navigation {
     display: none;
     transition: visibility 0.3s ease;
@@ -108,6 +111,9 @@
 @media screen and (min-width: 600px) {
     #languageSwitchButtonNav {
         display: none;
+    }
+    #languageSwitchButton {
+        display: block;
     }
     
    #navigation {
