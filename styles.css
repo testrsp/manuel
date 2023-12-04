@@ -86,7 +86,6 @@
     
    #navigation {
     display: none;
-    visibility: hidden;
     transition: visibility 0.3s ease;
    }
 
@@ -102,6 +101,5 @@
     
    #navigation {
     display: block;
-      visibility: visible;
    }
 }
