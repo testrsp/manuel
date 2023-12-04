@@ -96,13 +96,19 @@
 @media screen and (max-width: 600px) {
     .mobile_hidden{
       display: block;
+    }
+    .mobile_show{
+      display: none;
+    }
+   #navigation {
+      display: none;
         position: fixed;
       top: 0;
       left: 0;
       width: 100%;
       background-color: #fff;
       z-index: 2;
-    }
+   }
 #navigation ul {
   margin: 0;
   padding: 10px;
@@ -112,12 +118,6 @@
   padding: 10px;
   border-bottom: 1px solid #ccc;
 }
-    .mobile_show{
-      display: none;
-    }
-   #navigation {
-      display: none;
-   }
 
    #toggleButton {
       display: block;
