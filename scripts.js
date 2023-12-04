@@ -67,11 +67,11 @@ function generateNavigationLinks(navDataFile) {
 }
 
 function toggleNavigationBar() {
-   cconst navigation = document.getElementById('navigation');
+   const navigation = document.getElementById('navigation');
     const screenWidth = window.innerWidth;
-    
+
     if (screenWidth <= 600) {
-        navigation.style.display = (navigation.style.display === 'none') ? 'block' : 'none';
+        navigation.style.display = (navigation.style.display !== 'block') ? 'block' : 'none';
     } else {
         navigation.style.display = 'block';
     }
