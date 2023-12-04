@@ -67,8 +67,9 @@ function generateNavigationLinks(navDataFile) {
 
 function toggleNavigationBar() {
    const navigation = document.getElementById('navigation');
-   navigation.style.display = navigation.style.display === 'none' || navigation.style.display === '' ? 'block' : 'none';
-}
+    navigation.style.display = window.getComputedStyle(navigation).display === 'none' ? 'block' : 'none';
+
+   }
 // Update header elements based on the current language
 function updateHeaderElements() {
     const logoElement = document.getElementById('logo');
