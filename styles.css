@@ -75,8 +75,8 @@
     }
 #toggleButton {
    display: none;
-    position: absolute;
-    top: 20px;
+    position: fixed;
+    top: 100px;
     right: 20px;
     border: 1px solid #d3d3d3;
     background-color: #fff;
