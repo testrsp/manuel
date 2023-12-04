@@ -67,12 +67,14 @@ function generateNavigationLinks(navDataFile) {
 }
 
 function toggleNavigationBar() {
-   const navigation = document.getElementById('navigation');
-    navigation.style.display = (window.getComputedStyle(navigation).display === 'none') ? 'block' : 'none';
+   cconst navigation = document.getElementById('navigation');
     const screenWidth = window.innerWidth;
-
-    navigation.style.display = (screenWidth <= 600) ? 'none' : 'block';
-    //navigation.style.visibility = (window.getComputedStyle(navigation).visibility === 'hidden') ? 'visible' : 'hidden';
+    
+    if (screenWidth <= 600) {
+        navigation.style.display = (navigation.style.display === 'none') ? 'block' : 'none';
+    } else {
+        navigation.style.display = 'block';
+    }
 }
 // Update header elements based on the current language
 function updateHeaderElements() {
