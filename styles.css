@@ -80,9 +80,23 @@
    text-align: center;
    cursor: pointer;
 }
-
+#languageSwitchHeader {
+   display: block;
+}
+#languageSwitchNav {
+   display: none;
+}
 
 @media screen and (max-width: 600px) {
+   #languageSwitchHeader {
+      display: none;
+   }
+
+   #languageSwitchNav {
+      display: inline-block;
+      margin-bottom: 10px;
+   }
+    
    #navigation {
       display: none;
     transition: visibility 0.3s ease;
