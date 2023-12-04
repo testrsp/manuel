@@ -88,7 +88,7 @@
    text-align: center;
 }
     .mobile_hidden{
-      display: block;
+      display: inline-block;
     }
     .mobile_show{
       display: none;
@@ -98,7 +98,7 @@
       display: none;
     }
     .mobile_show{
-      display: block;
+      display: inline-block;
     }
    #navigation {
       display: none;
