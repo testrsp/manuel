@@ -70,7 +70,7 @@ function toggleNavigationBar() {
    const navigation = document.getElementById('navigation');
     navigation.style.display = (window.getComputedStyle(navigation).display === 'none') ? 'block' : 'none';
     const screenWidth = window.innerWidth;
-    navigation.style.display = (screenWidth <= 600) ? 'none' : 'block';
+    navigation.style.display = (screenWidth > 600) ? 'block' : (navigation.style.display === 'none' ? 'block' : 'none');
 
     //navigation.style.visibility = (window.getComputedStyle(navigation).visibility === 'hidden') ? 'visible' : 'hidden';
 }
