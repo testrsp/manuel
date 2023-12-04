@@ -80,26 +80,8 @@
    text-align: center;
    cursor: pointer;
 }
-#languageSwitchHeader {
-    display: inline-block;
-    vertical-align: middle;
-    line-height: 200%;
-    margin-left: 20px;
-    height: 100%;
-}
-#languageSwitchNav {
-   display: none;
-}
 
 @media screen and (max-width: 600px) {
-   #languageSwitchHeader {
-      display: none;
-   }
-
-   #languageSwitchNav {
-      display: block;
-      margin-bottom: 10px;
-   }
     
    #navigation {
       display: none;
