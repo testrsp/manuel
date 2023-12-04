@@ -1,4 +1,3 @@
-
 let currentLanguage = 'zh';
 let currentFunction = 'index';
 let preloadedFunction = false;
