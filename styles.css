@@ -59,6 +59,7 @@
     #navigation {
     width: 300px;
     border-right: 1px solid #d3d3d3;
+      z-index: 2;
     }
     #navigation ul {
     list-style-type: none;
@@ -104,10 +105,9 @@
       display: none;
         position: fixed;
       top: 0;
-      left: 0;
+      right: 0;
       width: 100%;
       background-color: #fff;
-      z-index: 2;
    }
 #navigation ul {
   margin: 0;
