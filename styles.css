@@ -58,7 +58,6 @@
     display: flex;
     }
     #navigation {
-    display: none;
     width: 300px;
     border-right: 1px solid #d3d3d3;
     display: block;
