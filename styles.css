@@ -88,6 +88,9 @@
 }
 
 @media screen and (max-width: 600px) {
+    #languageSwitchButtonNav {
+        display: block;
+    }
     
    #navigation {
     display: none;
@@ -103,6 +106,9 @@
    }
 }
 @media screen and (min-width: 600px) {
+    #languageSwitchButtonNav {
+        display: none;
+    }
     
    #navigation {
     display: block;
