@@ -75,11 +75,15 @@
     }
 #toggleButton {
    display: none;
-   background-color: #02336e;
-   color: #fff;
-   padding: 10px;
-   text-align: center;
-   cursor: pointer;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #02336e;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 @media screen and (max-width: 600px) {
